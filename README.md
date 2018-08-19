@@ -1,7 +1,7 @@
 ## Reactive JMS with Spring
 
 [![Build Status](https://travis-ci.com/tonvanbart/gs-messaging-jms-reactive.svg?branch=master)](https://travis-ci.com/tonvanbart/gs-messaging-jms-reactive)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=gs-messaging-jms-reactive&metric=alert_status)](https://sonarcloud.io/api/project_badges/measure?project=gs-messaging-jms-reactive&metric=alert_status)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=gs-messaging-jms-reactive&metric=alert_status)](https://sonarcloud.io/dashboard?id=gs-messaging-jms-reactive)
 
 This is a modified version of the gs-messaging-jms project (see http://spring.io/guides/gs/messaging-jms/).
 Differences with the version from the Spring guide:
