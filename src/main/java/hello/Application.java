@@ -64,7 +64,7 @@ public class Application {
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            LOGGER.warn("Interrupted", e);
         }
 
         context.close();

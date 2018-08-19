@@ -21,7 +21,7 @@ public class Listener implements MessageListener {
             try {
                 LOGGER.info("((TextMessage) message).getText() = " + ((TextMessage) message).getText());
             } catch (JMSException e) {
-                e.printStackTrace();
+                LOGGER.warn("JMS exception in listener", e);
             }
         } else {
             LOGGER.info("Received message is not a TextMessage");
